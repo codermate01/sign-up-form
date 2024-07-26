@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'heavy_dataregular';
+    src: url('fonts/heavy_data-webfont.woff2') format('woff2'),
+         url('fonts/heavy_data-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+*{
+    margin: 0;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.container{
+    display: flex;
+}
+.container-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    background-image: url(img/background.jpg);
+    height:100vh;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-right{
+    flex-grow: 3;
+}
+
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20vh;
+    padding: 1vh 5vw;
+    background-color: rgb(0 0 0 / 25%);
+}
+.banner p{
+    color: white;
+    font-family: "heavy_dataregular";
+    font-size: 4rem;
+}
+.banner img{
+    height: 150px;
+}
+.credits{
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+}
